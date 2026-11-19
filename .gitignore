@@ -1,0 +1,10 @@
+# Notes / helper scripts that are not part of the project
+tools/
+Claude.md
+
+# Build outputs (NcuFuck.exe and compiled .ncu programs)
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.log

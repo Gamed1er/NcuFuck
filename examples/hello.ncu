@@ -1,0 +1,16 @@
+// Hello World in NCU language (from the BrainFuck Wikipedia example)
+NCU NCU NCU NCU NCU NCU NCU NCU    // cell0 = 8
+nCU ncU NCU NCU NCU NCU    // loop 8 times: cell1 = 4
+nCU ncU NCU NCU ncU NCU NCU NCU ncU NCU NCU NCU ncU NCU Ncu Ncu Ncu Ncu ncu NCu    // cell2..5 += 2 3 3 1 (x4)
+ncU NCU ncU NCU ncU ncu ncU ncU NCU    // cell2 += 1, cell3 += 1, cell4 -= 1, cell6 += 1
+nCU Ncu NCu Ncu ncu    // go back to cell0 and decrement
+NCu
+ncU ncU nCu    // H
+ncU ncu ncu ncu nCu    // e
+NCU NCU NCU NCU NCU NCU NCU nCu nCu NCU NCU NCU nCu    // l l o
+ncU ncU nCu    // space
+Ncu ncu nCu    // W
+Ncu nCu    // o
+NCU NCU NCU nCu ncu ncu ncu ncu ncu ncu nCu ncu ncu ncu ncu ncu ncu ncu ncu nCu    // r l d
+ncU ncU NCU nCu    // !
+ncU NCU NCU nCu    // newline

@@ -1,0 +1,5 @@
+// error test: the loop opened on line 3 is never closed
+NCU NCU NCU
+nCU ncu
+  nCU ncu NCu
+nCu

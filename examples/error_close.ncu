@@ -1,0 +1,5 @@
+// error test: extra loop end on line 5
+NCU NCU NCU
+nCU ncu NCu
+nCu
+NCu

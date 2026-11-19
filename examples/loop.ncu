@@ -1,0 +1,15 @@
+// Nested loops: print a star triangle (5 rows)
+// cells: c0 = rows left, c1 = stars left in this row, c2 = temp,
+// c3 = '*', c4 = newline, c5 = current row length
+NCU NCU NCU NCU NCU    // c0 = 5
+ncU ncU NCU NCU NCU NCU NCU NCU nCU ncU NCU NCU NCU NCU NCU NCU NCU Ncu ncu NCu    // c3 = 6 * 7 = 42 = '*'   (pointer on c2)
+ncU ncU NCU NCU NCU NCU NCU NCU NCU NCU NCU NCU    // c4 = 10 = newline       (pointer on c4)
+Ncu Ncu Ncu Ncu    // back to c0
+nCU    // for each row:
+ncU ncU ncU ncU ncU NCU    // c5 = c5 + 1
+nCU Ncu Ncu Ncu Ncu NCU ncU NCU ncU ncU ncU ncu NCu    // move c5 into c1 and c2
+Ncu Ncu Ncu nCU ncU ncU ncU NCU Ncu Ncu Ncu ncu NCu    // move c2 back into c5
+Ncu nCU ncU ncU nCu Ncu Ncu ncu NCu    // print c1 stars
+ncU ncU ncU nCu    // print newline
+Ncu Ncu Ncu Ncu ncu    // c0 = c0 - 1
+NCu

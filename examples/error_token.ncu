@@ -1,0 +1,4 @@
+// error test: unknown token on line 4
+NCU NCU NCU
+NCU nCu
+NCU ncU NcU NCUU nCu
